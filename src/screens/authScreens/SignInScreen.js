@@ -82,6 +82,7 @@ export default function SignInScreen({navigation}){
                     title="Sign In"
                     buttonStyle = {parameters.styledButtonSignIn}
                     titleStyle = {parameters.buttonTitleSignIn}
+                    onPress ={()=>{navigation.navigate('HomeScreen')}}
                 />
             </View>
 
